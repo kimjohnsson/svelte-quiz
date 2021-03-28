@@ -67,6 +67,7 @@
           time = 15
           lives--
           questionNumber++
+          getQuestion(questionNumber)
         }
       }, 1000)
   }
